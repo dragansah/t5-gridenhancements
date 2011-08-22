@@ -1,0 +1,48 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_0_0.xsd">
+
+	<h1>Grid Current Page Mixin Demo</h1>
+
+	<p>
+		[
+		<t:actionlink t:id="reset1">reset Grid1</t:actionlink>
+		]
+	</p>
+	
+	<p>
+		[
+		<t:actionlink t:id="gotoPage2" id="gotoPage2">Goto Page 2 (using link and adding a parameter to the url)</t:actionlink>
+		]
+	</p>
+
+	<p>
+		[
+		<t:actionlink t:id="gotoGrid1Page2Grid2Page3" id="gotoGrid1Page2Grid2Page3">Goto Grid1 page 2 and Grid2 page 3</t:actionlink>
+		]
+	</p>
+	
+	<p>
+		[
+		<t:actionlink t:id="sortGrid1OnAlbum" id="sortGrid1OnAlbum">Sort Grid 1 on Album column (using link and adding a parameter to the url)</t:actionlink>
+		]
+	</p>
+	
+	<p>
+		[
+		<t:actionlink t:id="sortGrid1OnAlbumSortGrid2OnArtist" id="sortGrid1OnAlbumSortGrid2OnArtist">Sort Grid 1 on Album column and Grid 2 on Artist column (using link and adding a parameter to the url)</t:actionlink>
+		]
+	</p>
+	
+	<table t:id="grid1" id="grid1" source="tracks" t:mixins="gridColumnSort, gridCurrentPage"
+		gridColumnSort.includeId="false" gridCurrentPage.includeId="false"
+		rowsPerPage="5" />
+
+	<p>
+		[
+		<t:actionlink t:id="reset2">reset Grid 2</t:actionlink>
+		]
+	</p>
+	
+	<table t:id="grid2" source="tracks" t:mixins="gridColumnSort, gridCurrentPage"
+		rowsPerPage="5" />
+
+</html>

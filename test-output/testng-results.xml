@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="contextmenu tests" duration-ms="22280" started-at="2011-08-22T12:18:45Z" finished-at="2011-08-22T12:19:07Z">
+    <groups>
+    </groups>
+    <test name="Integration Tests" duration-ms="22280" started-at="2011-08-22T12:18:45Z" finished-at="2011-08-22T12:19:07Z">
+      <class name="org.apache.tapestry5.gridenhancements.integration.GridCurrentPageMixinTest">
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:org.apache.tapestry5.gridenhancements.integration.GridCurrentPageMixinTest@787c16]" name="setup" is-config="true" duration-ms="1" started-at="2011-08-22T12:19:04Z" finished-at="2011-08-22T12:19:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3ad545]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="indicateTestMethodName(java.lang.reflect.Method)[pri:0, instance:org.apache.tapestry5.gridenhancements.integration.GridCurrentPageMixinTest@787c16]" name="indicateTestMethodName" is-config="true" duration-ms="41" started-at="2011-08-22T12:19:04Z" finished-at="2011-08-22T12:19:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.apache.tapestry5.gridenhancements.integration.GridCurrentPageMixinTest.page_parameter_is_added_to_url()]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="page_parameter_is_added_to_url()[pri:0, instance:org.apache.tapestry5.gridenhancements.integration.GridCurrentPageMixinTest@787c16]" name="page_parameter_is_added_to_url" duration-ms="940" started-at="2011-08-22T12:19:04Z" finished-at="2011-08-22T12:19:05Z">
+        </test-method>
+        <test-method status="PASS" signature="cleanupTestMethod()[pri:0, instance:org.apache.tapestry5.gridenhancements.integration.GridCurrentPageMixinTest@787c16]" name="cleanupTestMethod" is-config="true" duration-ms="0" started-at="2011-08-22T12:19:05Z" finished-at="2011-08-22T12:19:05Z">
+        </test-method>
+        <test-method status="PASS" signature="indicateTestMethodName(java.lang.reflect.Method)[pri:0, instance:org.apache.tapestry5.gridenhancements.integration.GridCurrentPageMixinTest@787c16]" name="indicateTestMethodName" is-config="true" duration-ms="23" started-at="2011-08-22T12:19:05Z" finished-at="2011-08-22T12:19:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.apache.tapestry5.gridenhancements.integration.GridCurrentPageMixinTest.provide_page_number_in_url_both_grids()]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="provide_page_number_in_url_both_grids()[pri:0, instance:org.apache.tapestry5.gridenhancements.integration.GridCurrentPageMixinTest@787c16]" name="provide_page_number_in_url_both_grids" duration-ms="879" started-at="2011-08-22T12:19:05Z" finished-at="2011-08-22T12:19:06Z">
+        </test-method>
+        <test-method status="PASS" signature="cleanupTestMethod()[pri:0, instance:org.apache.tapestry5.gridenhancements.integration.GridCurrentPageMixinTest@787c16]" name="cleanupTestMethod" is-config="true" duration-ms="0" started-at="2011-08-22T12:19:06Z" finished-at="2011-08-22T12:19:06Z">
+        </test-method>
+        <test-method status="PASS" signature="indicateTestMethodName(java.lang.reflect.Method)[pri:0, instance:org.apache.tapestry5.gridenhancements.integration.GridCurrentPageMixinTest@787c16]" name="indicateTestMethodName" is-config="true" duration-ms="29" started-at="2011-08-22T12:19:06Z" finished-at="2011-08-22T12:19:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.apache.tapestry5.gridenhancements.integration.GridCurrentPageMixinTest.provide_page_number_in_url_first_grid()]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="provide_page_number_in_url_first_grid()[pri:0, instance:org.apache.tapestry5.gridenhancements.integration.GridCurrentPageMixinTest@787c16]" name="provide_page_number_in_url_first_grid" duration-ms="449" started-at="2011-08-22T12:19:06Z" finished-at="2011-08-22T12:19:07Z">
+        </test-method>
+        <test-method status="PASS" signature="cleanup()[pri:0, instance:org.apache.tapestry5.gridenhancements.integration.GridCurrentPageMixinTest@787c16]" name="cleanup" is-config="true" duration-ms="0" started-at="2011-08-22T12:19:07Z" finished-at="2011-08-22T12:19:07Z">
+        </test-method>
+        <test-method status="PASS" signature="cleanupTestMethod()[pri:0, instance:org.apache.tapestry5.gridenhancements.integration.GridCurrentPageMixinTest@787c16]" name="cleanupTestMethod" is-config="true" duration-ms="0" started-at="2011-08-22T12:19:07Z" finished-at="2011-08-22T12:19:07Z">
+        </test-method>
+      </class>
+      <class name="org.apache.tapestry5.gridenhancements.integration.GridColumnSortMixinTest">
+        <test-method status="PASS" signature="testStartup(org.testng.ITestContext, org.testng.xml.XmlTest)[pri:0, instance:org.apache.tapestry5.gridenhancements.integration.GridColumnSortMixinTest@1860038]" name="testStartup" is-config="true" duration-ms="10596" depends-on-groups="beforeStartup" started-at="2011-08-22T12:18:45Z" finished-at="2011-08-22T12:18:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3ad545]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Test: "Integration Tests" verbose:1[parameters:tapestry.web-app-folder=>src/test/integration][metagroups:] [included: ][excluded: ]  classes:[Class: org.apache.tapestry5.gridenhancements.integration.GridColumnSortMixinTest] [Class: org.apache.tapestry5.gridenhancements.integration.GridCurrentPageMixinTest] ] ]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:org.apache.tapestry5.gridenhancements.integration.GridColumnSortMixinTest@1860038]" name="setup" is-config="true" duration-ms="0" started-at="2011-08-22T12:18:56Z" finished-at="2011-08-22T12:18:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3ad545]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="indicateTestMethodName(java.lang.reflect.Method)[pri:0, instance:org.apache.tapestry5.gridenhancements.integration.GridColumnSortMixinTest@1860038]" name="indicateTestMethodName" is-config="true" duration-ms="18" started-at="2011-08-22T12:18:56Z" finished-at="2011-08-22T12:18:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.apache.tapestry5.gridenhancements.integration.GridColumnSortMixinTest.provide_sort_parameter_in_url_both_grids()]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="provide_sort_parameter_in_url_both_grids()[pri:0, instance:org.apache.tapestry5.gridenhancements.integration.GridColumnSortMixinTest@1860038]" name="provide_sort_parameter_in_url_both_grids" duration-ms="6093" started-at="2011-08-22T12:18:56Z" finished-at="2011-08-22T12:19:02Z">
+        </test-method>
+        <test-method status="PASS" signature="cleanupTestMethod()[pri:0, instance:org.apache.tapestry5.gridenhancements.integration.GridColumnSortMixinTest@1860038]" name="cleanupTestMethod" is-config="true" duration-ms="0" started-at="2011-08-22T12:19:02Z" finished-at="2011-08-22T12:19:02Z">
+        </test-method>
+        <test-method status="PASS" signature="indicateTestMethodName(java.lang.reflect.Method)[pri:0, instance:org.apache.tapestry5.gridenhancements.integration.GridColumnSortMixinTest@1860038]" name="indicateTestMethodName" is-config="true" duration-ms="34" started-at="2011-08-22T12:19:02Z" finished-at="2011-08-22T12:19:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.apache.tapestry5.gridenhancements.integration.GridColumnSortMixinTest.provide_sort_parameter_in_url_first_grid()]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="provide_sort_parameter_in_url_first_grid()[pri:0, instance:org.apache.tapestry5.gridenhancements.integration.GridColumnSortMixinTest@1860038]" name="provide_sort_parameter_in_url_first_grid" duration-ms="657" started-at="2011-08-22T12:19:02Z" finished-at="2011-08-22T12:19:02Z">
+        </test-method>
+        <test-method status="PASS" signature="cleanupTestMethod()[pri:0, instance:org.apache.tapestry5.gridenhancements.integration.GridColumnSortMixinTest@1860038]" name="cleanupTestMethod" is-config="true" duration-ms="0" started-at="2011-08-22T12:19:02Z" finished-at="2011-08-22T12:19:02Z">
+        </test-method>
+        <test-method status="PASS" signature="indicateTestMethodName(java.lang.reflect.Method)[pri:0, instance:org.apache.tapestry5.gridenhancements.integration.GridColumnSortMixinTest@1860038]" name="indicateTestMethodName" is-config="true" duration-ms="63" started-at="2011-08-22T12:19:02Z" finished-at="2011-08-22T12:19:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.apache.tapestry5.gridenhancements.integration.GridColumnSortMixinTest.sort_parameters_are_added_to_url()]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="sort_parameters_are_added_to_url()[pri:0, instance:org.apache.tapestry5.gridenhancements.integration.GridColumnSortMixinTest@1860038]" name="sort_parameters_are_added_to_url" duration-ms="1655" started-at="2011-08-22T12:19:03Z" finished-at="2011-08-22T12:19:04Z">
+        </test-method>
+        <test-method status="PASS" signature="cleanupTestMethod()[pri:0, instance:org.apache.tapestry5.gridenhancements.integration.GridColumnSortMixinTest@1860038]" name="cleanupTestMethod" is-config="true" duration-ms="0" started-at="2011-08-22T12:19:04Z" finished-at="2011-08-22T12:19:04Z">
+        </test-method>
+        <test-method status="PASS" signature="cleanup()[pri:0, instance:org.apache.tapestry5.gridenhancements.integration.GridColumnSortMixinTest@1860038]" name="cleanup" is-config="true" duration-ms="0" started-at="2011-08-22T12:19:04Z" finished-at="2011-08-22T12:19:04Z">
+        </test-method>
+        <test-method status="PASS" signature="testShutdown(org.testng.ITestContext)[pri:0, instance:org.apache.tapestry5.gridenhancements.integration.GridColumnSortMixinTest@1860038]" name="testShutdown" is-config="true" duration-ms="776" started-at="2011-08-22T12:19:07Z" finished-at="2011-08-22T12:19:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3ad545]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
